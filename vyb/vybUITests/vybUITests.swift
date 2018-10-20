@@ -1,6 +1,6 @@
 //
-//  snapTuneUITests.swift
-//  snapTuneUITests
+//  vybUITests.swift
+//  vybUITests
 //
 //  Created by Kaughlin Caver on 10/20/18.
 //  Copyright © 2018 Kaughlin Caver. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class snapTuneUITests: XCTestCase {
+class vybUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

@@ -1,15 +1,15 @@
 //
-//  snapTuneTests.swift
-//  snapTuneTests
+//  vybTests.swift
+//  vybTests
 //
 //  Created by Kaughlin Caver on 10/20/18.
 //  Copyright © 2018 Kaughlin Caver. All rights reserved.
 //
 
 import XCTest
-@testable import snapTune
+@testable import vyb
 
-class snapTuneTests: XCTestCase {
+class vybTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
