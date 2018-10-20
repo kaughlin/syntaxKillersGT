@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10A0BBE7217AF96C00A7D0D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0BBE6217AF96C00A7D0D7 /* AppDelegate.swift */; };
+		10A0BBE9217AF96C00A7D0D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0BBE8217AF96C00A7D0D7 /* ViewController.swift */; };
+		10A0BBEC217AF96C00A7D0D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A0BBEA217AF96C00A7D0D7 /* Main.storyboard */; };
+		10A0BBEE217AF96C00A7D0D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A0BBED217AF96C00A7D0D7 /* Assets.xcassets */; };
+		10A0BBF1217AF96C00A7D0D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A0BBEF217AF96C00A7D0D7 /* LaunchScreen.storyboard */; };
+		10A0BBFC217AF96C00A7D0D7 /* snapTuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0BBFB217AF96C00A7D0D7 /* snapTuneTests.swift */; };
+		10A0BC07217AF96D00A7D0D7 /* snapTuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0BC06217AF96D00A7D0D7 /* snapTuneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10A0BBF8217AF96C00A7D0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10A0BBDB217AF96C00A7D0D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10A0BBE2217AF96C00A7D0D7;
+			remoteInfo = snapTune;
+		};
+		10A0BC03217AF96C00A7D0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10A0BBDB217AF96C00A7D0D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10A0BBE2217AF96C00A7D0D7;
+			remoteInfo = snapTune;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10A0BBE3217AF96C00A7D0D7 /* snapTune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapTune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A0BBE6217AF96C00A7D0D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10A0BBE8217AF96C00A7D0D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10A0BBEB217AF96C00A7D0D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10A0BBED217AF96C00A7D0D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10A0BBF0217AF96C00A7D0D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10A0BBF2217AF96C00A7D0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A0BBF7217AF96C00A7D0D7 /* snapTuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapTuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A0BBFB217AF96C00A7D0D7 /* snapTuneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapTuneTests.swift; sourceTree = "<group>"; };
+		10A0BBFD217AF96C00A7D0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A0BC02217AF96C00A7D0D7 /* snapTuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapTuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A0BC06217AF96D00A7D0D7 /* snapTuneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapTuneUITests.swift; sourceTree = "<group>"; };
+		10A0BC08217AF96D00A7D0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A0BBE0217AF96C00A7D0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A0BBF4217AF96C00A7D0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A0BBFF217AF96C00A7D0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A0BBDA217AF96C00A7D0D7 = {
+			isa = PBXGroup;
+			children = (
+				10A0BBE5217AF96C00A7D0D7 /* snapTune */,
+				10A0BBFA217AF96C00A7D0D7 /* snapTuneTests */,
+				10A0BC05217AF96D00A7D0D7 /* snapTuneUITests */,
+				10A0BBE4217AF96C00A7D0D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A0BBE4217AF96C00A7D0D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A0BBE3217AF96C00A7D0D7 /* snapTune.app */,
+				10A0BBF7217AF96C00A7D0D7 /* snapTuneTests.xctest */,
+				10A0BC02217AF96C00A7D0D7 /* snapTuneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10A0BBE5217AF96C00A7D0D7 /* snapTune */ = {
+			isa = PBXGroup;
+			children = (
+				10A0BBE6217AF96C00A7D0D7 /* AppDelegate.swift */,
+				10A0BBE8217AF96C00A7D0D7 /* ViewController.swift */,
+				10A0BBEA217AF96C00A7D0D7 /* Main.storyboard */,
+				10A0BBED217AF96C00A7D0D7 /* Assets.xcassets */,
+				10A0BBEF217AF96C00A7D0D7 /* LaunchScreen.storyboard */,
+				10A0BBF2217AF96C00A7D0D7 /* Info.plist */,
+			);
+			path = snapTune;
+			sourceTree = "<group>";
+		};
+		10A0BBFA217AF96C00A7D0D7 /* snapTuneTests */ = {
+			isa = PBXGroup;
+			children = (
+				10A0BBFB217AF96C00A7D0D7 /* snapTuneTests.swift */,
+				10A0BBFD217AF96C00A7D0D7 /* Info.plist */,
+			);
+			path = snapTuneTests;
+			sourceTree = "<group>";
+		};
+		10A0BC05217AF96D00A7D0D7 /* snapTuneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10A0BC06217AF96D00A7D0D7 /* snapTuneUITests.swift */,
+				10A0BC08217AF96D00A7D0D7 /* Info.plist */,
+			);
+			path = snapTuneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10A0BBE2217AF96C00A7D0D7 /* snapTune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A0BC0B217AF96D00A7D0D7 /* Build configuration list for PBXNativeTarget "snapTune" */;
+			buildPhases = (
+				10A0BBDF217AF96C00A7D0D7 /* Sources */,
+				10A0BBE0217AF96C00A7D0D7 /* Frameworks */,
+				10A0BBE1217AF96C00A7D0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snapTune;
+			productName = snapTune;
+			productReference = 10A0BBE3217AF96C00A7D0D7 /* snapTune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10A0BBF6217AF96C00A7D0D7 /* snapTuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A0BC0E217AF96D00A7D0D7 /* Build configuration list for PBXNativeTarget "snapTuneTests" */;
+			buildPhases = (
+				10A0BBF3217AF96C00A7D0D7 /* Sources */,
+				10A0BBF4217AF96C00A7D0D7 /* Frameworks */,
+				10A0BBF5217AF96C00A7D0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10A0BBF9217AF96C00A7D0D7 /* PBXTargetDependency */,
+			);
+			name = snapTuneTests;
+			productName = snapTuneTests;
+			productReference = 10A0BBF7217AF96C00A7D0D7 /* snapTuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10A0BC01217AF96C00A7D0D7 /* snapTuneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A0BC11217AF96D00A7D0D7 /* Build configuration list for PBXNativeTarget "snapTuneUITests" */;
+			buildPhases = (
+				10A0BBFE217AF96C00A7D0D7 /* Sources */,
+				10A0BBFF217AF96C00A7D0D7 /* Frameworks */,
+				10A0BC00217AF96C00A7D0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10A0BC04217AF96C00A7D0D7 /* PBXTargetDependency */,
+			);
+			name = snapTuneUITests;
+			productName = snapTuneUITests;
+			productReference = 10A0BC02217AF96C00A7D0D7 /* snapTuneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A0BBDB217AF96C00A7D0D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kaughlin Caver";
+				TargetAttributes = {
+					10A0BBE2217AF96C00A7D0D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					10A0BBF6217AF96C00A7D0D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10A0BBE2217AF96C00A7D0D7;
+					};
+					10A0BC01217AF96C00A7D0D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10A0BBE2217AF96C00A7D0D7;
+					};
+				};
+			};
+			buildConfigurationList = 10A0BBDE217AF96C00A7D0D7 /* Build configuration list for PBXProject "snapTune" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10A0BBDA217AF96C00A7D0D7;
+			productRefGroup = 10A0BBE4217AF96C00A7D0D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A0BBE2217AF96C00A7D0D7 /* snapTune */,
+				10A0BBF6217AF96C00A7D0D7 /* snapTuneTests */,
+				10A0BC01217AF96C00A7D0D7 /* snapTuneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10A0BBE1217AF96C00A7D0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A0BBF1217AF96C00A7D0D7 /* LaunchScreen.storyboard in Resources */,
+				10A0BBEE217AF96C00A7D0D7 /* Assets.xcassets in Resources */,
+				10A0BBEC217AF96C00A7D0D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A0BBF5217AF96C00A7D0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A0BC00217AF96C00A7D0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A0BBDF217AF96C00A7D0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A0BBE9217AF96C00A7D0D7 /* ViewController.swift in Sources */,
+				10A0BBE7217AF96C00A7D0D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A0BBF3217AF96C00A7D0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A0BBFC217AF96C00A7D0D7 /* snapTuneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A0BBFE217AF96C00A7D0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A0BC07217AF96D00A7D0D7 /* snapTuneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10A0BBF9217AF96C00A7D0D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10A0BBE2217AF96C00A7D0D7 /* snapTune */;
+			targetProxy = 10A0BBF8217AF96C00A7D0D7 /* PBXContainerItemProxy */;
+		};
+		10A0BC04217AF96C00A7D0D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10A0BBE2217AF96C00A7D0D7 /* snapTune */;
+			targetProxy = 10A0BC03217AF96C00A7D0D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10A0BBEA217AF96C00A7D0D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A0BBEB217AF96C00A7D0D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10A0BBEF217AF96C00A7D0D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A0BBF0217AF96C00A7D0D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10A0BC09217AF96D00A7D0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10A0BC0A217AF96D00A7D0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10A0BC0C217AF96D00A7D0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = snapTune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaughlinCaver.snapTune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		10A0BC0D217AF96D00A7D0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = snapTune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaughlinCaver.snapTune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		10A0BC0F217AF96D00A7D0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = snapTuneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaughlinCaver.snapTuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snapTune.app/snapTune";
+			};
+			name = Debug;
+		};
+		10A0BC10217AF96D00A7D0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = snapTuneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaughlinCaver.snapTuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snapTune.app/snapTune";
+			};
+			name = Release;
+		};
+		10A0BC12217AF96D00A7D0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = snapTuneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaughlinCaver.snapTuneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = snapTune;
+			};
+			name = Debug;
+		};
+		10A0BC13217AF96D00A7D0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = snapTuneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaughlinCaver.snapTuneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = snapTune;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A0BBDE217AF96C00A7D0D7 /* Build configuration list for PBXProject "snapTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A0BC09217AF96D00A7D0D7 /* Debug */,
+				10A0BC0A217AF96D00A7D0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A0BC0B217AF96D00A7D0D7 /* Build configuration list for PBXNativeTarget "snapTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A0BC0C217AF96D00A7D0D7 /* Debug */,
+				10A0BC0D217AF96D00A7D0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10A0BC0E217AF96D00A7D0D7 /* Build configuration list for PBXNativeTarget "snapTuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A0BC0F217AF96D00A7D0D7 /* Debug */,
+				10A0BC10217AF96D00A7D0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10A0BC11217AF96D00A7D0D7 /* Build configuration list for PBXNativeTarget "snapTuneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A0BC12217AF96D00A7D0D7 /* Debug */,
+				10A0BC13217AF96D00A7D0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10A0BBDB217AF96C00A7D0D7 /* Project object */;
+}
